@@ -1,0 +1,449 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* ***************************************gen css******************** */
+.df{
+    display: flex;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.jcc{
+    justify-content: center;
+}
+.mx-w{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1350px;
+    width: 100%;
+}
+.link ul{
+    display: flex;
+}
+.link ul li{
+     list-style: none;
+
+}
+.link ul li a{
+    text-decoration: none;
+    color: #000;
+    padding-left: 25px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+select{
+    border: none;
+}
+h2{
+    font-size: 50px;
+   text-align: center;
+}
+.w20{
+  width:20%
+}
+.w40{
+ width: 40%;
+}
+
+/* ********************************************header************************************* */
+.header{
+    margin: 0;
+    padding: 0;
+}
+.mx-w{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1300px;
+}
+
+.header .head{
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f8f6f6;
+    background-color: #fffdfb;
+    border-radius:40px;
+    padding: 15px 0px;
+    z-index: 2;
+    position:fixed;
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1300px;
+    
+}
+.left{
+ justify-content: center;
+ align-items: center;
+}
+.button1{
+ border: 2px solid #611161;
+ background-color: #fff;
+ color: #611161;
+ font-size: 15px;
+ font-weight: 600;
+ padding: 10px;
+ border-radius: 5px;
+ margin: 5px;
+}
+.button1:hover{
+  border: 4px solid #611161;
+}
+.button2{
+    border: 2px solid #611161;
+    background-color:#611161;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+   }
+   
+/* ********************************container-1***************************** */
+.container-1{
+    margin:0;
+    padding-top: 130px;
+}
+.container-1 h2 ,h4 ,p{
+ text-align: left;
+}
+.container-1 .content-1{
+    width: 50%;
+}
+/* **********************************container-2*************************** */
+.container-2{
+    margin: 0;
+    padding: 0;
+    
+}
+.container-2 .mx-w{
+    justify-content: center;
+    text-align: center;
+    background-color: #ebdada;
+    padding: 25px 0px;
+}
+ .container-2 .gride{
+    justify-content: center;
+    align-items: center;
+}
+.container-2 .gride-item{
+   align-content:left;
+    height: 20vh;
+    max-width: 10%;
+    padding: 25px ;
+    margin: 25px 0px;
+}
+.container-2  p{
+    color:#928787;
+    text-align: center;
+}
+/* *************************************container-3************************** */
+.container-3{
+    margin: 25px;
+    padding: 25px;
+}
+ .container-3 .mx-w h2{
+    justify-content: space-between;
+    text-align: left;
+}
+ .container-3 .content{
+  padding: 25px;
+}
+ .container-3 .content ul li{
+    list-style: none;
+}
+ .container-3 .content ul li a{
+    color: #2d2df0;
+    text-decoration:dashed;
+    padding: 25px 0px;
+}
+/* *****************************container-4**************************** */
+.container-4{
+    margin: 25px;
+    padding: 25px;
+}
+.container-4 .mx-w h2{
+    justify-content: space-between;
+    text-align: left;
+}
+.container-4 .content{
+    text-align: left;
+    padding: 25px;
+}
+ .container-4 .content ul li{
+    list-style: none;
+}
+ .container-4 .content ul li a{
+    color: #2d2df0;
+    text-decoration:dashed;
+    padding: 25px 0px;
+}
+/* **************************container-5*************************** */
+.container-5{
+    margin: 25px;
+    padding: 25px;
+}
+ .container-5 .mx-w h2{
+    justify-content: space-between;
+    text-align: left;
+}
+ .container-5 .content{
+    text-align: left;
+    padding: 25px;
+}
+ .container-5 .content ul li{
+    list-style: none;
+}
+ .container-5 .content ul li a{
+    color: #2d2df0;
+    text-decoration:dashed;
+    padding: 25px 0px;
+}
+/* **********************cotainer-6***************************** */
+.container-6{
+    margin: 25px;
+    padding: 25px;
+}
+.container-6 p{
+    text-align: center;
+}
+
+.container-6 .gride-item{
+    max-width: 20%;
+    align-items: left;
+    padding: 25px;
+}
+
+/* ***********************************container-7************************** */
+.container-7{
+    margin:0;
+    padding: 0;
+}
+.container-7 .mx-w {
+    background-color: #ebdada;
+    
+    
+}
+.container-7 .mx-w p{
+    text-align: center;
+}
+.container-7 .content-1 .content{
+    padding: 25px;
+}
+.container-7 .content-1 .conten h2,p{
+     padding: 25px;
+    
+}
+.container-7 .gride-1 ,.gride-2{
+  
+   position: relative;
+   top: -100px;
+}
+.container-7 .gride-1 .gride-item ,.gride-2 .gride-item{
+    background-color: #fff;
+    margin: 15px;
+    padding: 15px;
+    width: 280px;
+
+}
+.container-7 .gride-1 .gride-2  h4 ,p{
+   padding: 25px;
+   text-align: start;
+}
+ 
+.container-7 .gride-1 .gride-2 h4 ,p img:hover{
+    color: #2d2df0;
+}
+/* *****************************container-8********************** */
+.container-8{
+    margin: 25px;
+    padding: 25px;
+}
+.content-1{
+    justify-content: center;
+    text-align: center;
+}
+.container-8 .content-1 ul li{
+    list-style: none;
+}
+.container-8 .content-1 ul li a{
+    text-decoration: none;
+    color: #2d2df0;
+}
+.container-8 .content-2{
+    
+    padding: 25px;
+}
+.container-8 .content-2:hover {
+    border: 1px solid #ffffffe3;
+    zoom: 110%;
+}
+.container-8 .content-3{
+   justify-content: center;
+   align-items: center;
+   justify-content: space-between;
+   padding: 25px;
+}
+
+
+/* ********************************container-9**************************** */
+.container-9{
+ margin: 25px;
+ padding: 25px;
+}
+.container-9 .mx-w{
+    text-align: center;
+}
+.container-9 .gride {
+    align-items: center;
+}
+.container-9 .gride .gride-item{
+    max-width: 25%;
+    justify-content: center;
+    align-items:start;
+    border: 1px solid #fffdfb;
+    background-color: #fffdfb;
+    padding: 25px;
+    margin: 20px;
+    text-align: left;
+}
+.container-9 .gride .gride-item img{
+    padding: 25px;
+}
+.container-9 .gride .gride-item:hover{
+    zoom :110%
+}
+.container-9 .gride .gride-item ul{
+ padding: 25px;
+}
+.container-9 .gride .gride-item ul li{
+    list-style: none;
+}
+.container-9 .gride .gride-item ul li a{
+    text-decoration: none;
+    color: #2d2df0;
+    padding: 25px;
+}
+/* ********************************container-10************************** */
+.container-10{
+    margin: 25px;
+    padding: 25px;
+}
+
+ .container-10 .accordion {
+    cursor: pointer;
+    padding: 25px;
+    padding-left: 25px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    background-color: white;
+    }
+  
+  .active, .accordion:hover { 
+    background-color: #ccc;
+  }     
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  
+
+/* **********************container-11********************* */
+.container-11{
+    
+    margin: 0;
+    padding: 0;
+}
+.container-11 .gride ul li {
+ list-style: none;
+}
+.container-11 .gride ul li a{
+  text-decoration: none;
+  color: #000;
+}
+.container-11 .content-1{
+    border: 1px solid #611161;
+    background-color: #611161;
+    clip-path: ellipse(75% 100% at center top);
+    height: 370px;
+    color: #fff;
+
+}
+.container-11 .content-1 h2{
+    margin-top: 120px;
+}
+.container-11 .content-1 button{
+    border: 1px solid#fff;
+    background-color: #fff;
+    color:#611161;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 60px;
+
+}
+.container-11 .content-2{
+    padding: 25px;
+
+}
+.container-11 .content-2 .gride .gride-item{
+  margin: 25px;
+  padding: 25px;
+}
+.container-11 .content-2 .gride .gride-item ul li a:hover{
+    color: #2d2df0;
+}
+/* *************************************footer*********************************** */
+.footer{
+    margin: 25px;
+    padding: 0;
+}.footer .content-1{
+    justify-content: center;
+    text-align: center;
+}
+.footer .content-1 ul {
+    display: flex;
+}
+.footer .content-1 ul li {
+    list-style: none;
+}
+.footer .content-1 ul li a{
+    text-decoration: none;
+    color: #000;
+    padding-left:20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.footer .content-2 ul{
+    display: flex;
+}
+.footer .content-2 ul li{
+    list-style: none;
+}
+.footer .content-2 ul li img{
+    text-decoration: none;
+    padding-left: 25px;
+    size: 10px;
+}
+.footer .mx-w p{
+    font-size: 12px;
+    padding: 25px;
+    text-align: left;
+}
+/* ********************************************************* */
+
+
+    
